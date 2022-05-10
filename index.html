@@ -4,26 +4,47 @@
 			<title>Section:6 Bootcamp</title>
 			<link rel="shotcut icon" href="images/Floppy.png" type="image.png">
 		</head>
+		
+		<!--WEB page backgroung-------------------------------------------------------------->
 			<body style="background-image: url('images/magenta.jpg');
 							background-repeat: no-repeat;
 							background-attachment: fixed;
 							background-size: 100% 100%">
-							
-				<table style="boarder-collapse:collapse" > <!--border for debuging only -->
-					<tr>
-						<th colspan="3" height="120px">
-							<iframe src="html/title.html" style="border:none" name="iframe_title" width="1024px" height="120px"
-								title="Web page header frame">
-							</iframe>
-						</th>
-					<tr>
-					<tr>
-						<td height="125px">
-							<iframe src="html/controll.html" style="border:none" name="iframe_controll" width="125px" height="800px"
-							title="Web page control frame">
-							</iframe>
-						</td>
-					</tr>
+		<!--End------------------------------------------------------------------------------>
+				
+		<!--WEB page table layout------------------------------------------------------------>
+			<table style="boarder-collapse:collapse"> <!--border for debuging only -->
+				<tr>
+					<!--Title/top frame----------------------------------->
+					<th colspan="3" height="120px">
+						<iframe src="html/title.html" style="border:none" name="iframe_title"
+						width="1024px" height="120px" title="Web page header frame">
+						</iframe>
+					</th>
+					<!---------------------------------------------------->
+				<tr>
+				<tr>
+					<!--Controll/Left frame------------------------------->
+					<td width="125">
+						<iframe src="html/controll.html" style="border:none"
+						name="iframe_controll" width="125px" height="800px"
+						title="Web page control frame">
+						</iframe>
+					</td>
+					<!---------------------------------------------------->
+					<!--Center frame-------------------------------------->
+					<td width="899">
+						<iframe src="html/body_welcome.html"
+						style="position:absolute; top:142px; left:145px;
+						border-style:none;"
+						name="iframe_controll" width="890px" height="100%"
+						title="Welcome and centrall frame">
+						</iframe>
+					</td>
+					<!---------------------------------------------------->
+				</tr>
+			</table>:
+		<!--End------------------------------------------------------------------------------>
 						
 			</body>
 	</html>
