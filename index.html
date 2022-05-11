@@ -3,28 +3,47 @@
 		<head>
 			<title>Section:6 Bootcamp</title>
 			<link rel="shotcut icon" href="images/Floppy.png" type="image.png">
+			<style>
+				table {
+						border-collapse: collapse;
+						border-spacing: 0px;
+						}
+					td {
+						border-collapse: collapse;
+						border-spacing: 0px;
+						}
+			</style>
 		</head>
 		
 		<!--WEB page backgroung-------------------------------------------------------------->
-			<body style="background-image: url('images/magenta.jpg');
+			<body style="background-image: url('images/back_background.jpg');
 							background-repeat: no-repeat;
 							background-attachment: fixed;
-							background-size: 100% 100%">
+							background-size: 1043px 100%">
 		<!--End------------------------------------------------------------------------------>
 				
 		<!--WEB page table layout------------------------------------------------------------>
-			<table style="boarder-collapse:collapse"> <!--border for debuging only -->
+			<table>
 				<tr>
-					<!--Title/top frame----------------------------------->
-					<th colspan="3" height="120px">
+					<!--Head buttons-1024px-X-35px------------------------>
+					<td colspan="2" width="1020px" height="35px">
+						<iframe src="html/title_button.html" style="border:none" name="title_button"
+						width="1024px" height="100%" title="Web page header butons">
+						</iframe>
+					</td>
+					<!---------------------------------------------------->
+				</tr>
+				<tr>
+					<!--Title/top frame-1024px-X-120px-------------------->
+					<td colspan="2" height="120px">
 						<iframe src="html/title.html" style="border:none" name="iframe_title"
 						width="1024px" height="120px" title="Web page header frame">
 						</iframe>
-					</th>
+					</td>
 					<!---------------------------------------------------->
 				<tr>
 				<tr>
-					<!--Controll/Left frame------------------------------->
+					<!--Controll/Left frame-125px-X-800px----------------->
 					<td width="125">
 						<iframe src="html/controll.html" style="border:none"
 						name="iframe_controll" width="125px" height="800px"
@@ -32,18 +51,16 @@
 						</iframe>
 					</td>
 					<!---------------------------------------------------->
-					<!--Center frame-------------------------------------->
+					<!--Center frame-899px-x-800px------------------------>
 					<td width="899">
-						<iframe src="html/body_welcome.html"
-						style="position:absolute; top:142px; left:145px;
-						border-style:none;"
-						name="iframe_controll" width="890px" height="100%"
+						<iframe src="html/body_welcome.html" style="border:none"
+						name="iframe_controll" width="899px" height="800px"
 						title="Welcome and centrall frame">
 						</iframe>
 					</td>
 					<!---------------------------------------------------->
 				</tr>
-			</table>:
+			</table>
 		<!--End------------------------------------------------------------------------------>
 						
 			</body>
