@@ -1,3 +1,7 @@
+
+
+//Javascript to showing greatings depend on a time
+
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
